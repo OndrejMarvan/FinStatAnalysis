@@ -65,8 +65,4 @@ Apple has consistently demonstrated strong revenue growth and operational effici
 
 ### 💬 Summary
 
-Apple's financial performance from 2020 to 2024 showcases a **resilient and mature business model**. While EPS growth has leveled off slightly in the last two years, the company maintains strong profitability, efficient operations, and continued strategic investment in R&D.
-
----
-
-📌 *This analysis was generated using Python, Matplotlib, and the FinancialModelingPrep API.*
+While EPS growth has leveled off slightly in the last two years, the company maintains strong profitability, efficient operations, and continued strategic investment in R&D.
