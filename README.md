@@ -1,3 +1,38 @@
+# FinStatAnalysis
+
+This project is based on [© NeuralNine's YouTube video](https://www.youtube.com/watch?v=ZAAuGEVJsH8), originally designed to analyze financial statements using Python and the FinancialModelingPrep API.
+
+This version includes major improvements and restructuring, transforming it into a standalone project. The ultimate goal is to expand beyond the FinancialModelingPrep platform and enable support for Czech and Slovak companies, which are not publicly listed or available via FMP.
+
+---
+
+## 📁 `main.py`
+
+The `main.py` script performs automated financial statement analysis using data fetched via API.
+
+### 🔧 Key Features:
+- Retrieves and processes the **Income Statement** (annual) for a selected company.
+- Calculates key financial metrics:
+  - **EBIT**
+  - **EBITDA**
+  - **Net Profit Margin**
+  - **Operating Margin**
+  - **Effective Tax Rate**
+  - **R&D and SG&A ratios as % of revenue**
+- Visualizes the following in separate graphs:
+  - Revenue
+  - Gross Profit
+  - Earnings Per Share (EPS)
+
+---
+
+## ⚙️ How to Use
+
+1. Create a file named `api_key.txt` in the project root and paste your API key from [FinancialModelingPrep](https://financialmodelingprep.com).
+2. Run the script:
+   ```bash
+   python main.py
+
 ## 📊 Interpretation of Apple Inc. (AAPL) Financial Data
 
 > **Note**: Due to the limitations of the FinancialModelingPrep **Free Plan**, only the most recent **4 years** of data (2020–2024) are available.
